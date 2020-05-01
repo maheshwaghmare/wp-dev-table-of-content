@@ -43,10 +43,6 @@ if( ! class_exists('WP_Dev_Table_of_Content') ) :
 
 			$items = $this->get_tags( 'h([1-4])', $content );
 
-			if ( count( $items ) < 2 ) {
-				return $content;
-			}
-
 			if ( $items ) {
 				$contents_header = 'h' . $items[0][2]; // Duplicate the first <h#> tag in the document.
 				// $toc .= $this->styles;
