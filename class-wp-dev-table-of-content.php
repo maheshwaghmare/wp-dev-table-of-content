@@ -74,7 +74,7 @@ if( ! class_exists('WP_Dev_Table_of_Content') ) :
 					}
 					$used_ids[] = $id;
 
-					$toc .= '<li><a target="_blank" href="' . esc_attr( $link  ) . '#' . esc_attr( $id  ) . '">' . $item[3]  . '</a>';
+					$toc .= '<li><a href="' . esc_attr( $link  ) . '#' . esc_attr( $id  ) . '">' . $item[3]  . '</a>';
 				}
 				$toc .= "</ul>\n</div>\n";
 			}
