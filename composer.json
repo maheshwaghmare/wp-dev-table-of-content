@@ -1,7 +1,7 @@
 {
     "name": "maheshwaghmare/wp-dev-table-of-content",
     "type": "library",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Generate the table of content from the give content.",
     "keywords": ["wordpress", "table-of-content"],
     "homepage": "https://github.com/maheshwaghmare/wp-dev-table-of-content",
